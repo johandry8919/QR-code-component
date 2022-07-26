@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(185, 192, 192);
+    margin: 0;
+    padding: 0;
+
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%) ;  }
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 340px;
+    padding: 10px;
+    align-items: center;
+}
+
+.contenedor .bordercar .imageb {
+    border-radius: 20px;
+    ;
+    padding: 12px;
+
+}
+
+.contenedor .bordercar {
+    border-radius: 16px;
+    height: 485px;
+
+}
+
+.attribution a {
+    list-style: none;
+    line-height: 2px;
+    text-decoration: none;
+}
+
+.bordercar .attribution h4 {
+    font-weight: 600;
+    color: aquamarine;
+
+}
