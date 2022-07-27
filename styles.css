@@ -3,14 +3,21 @@ body {
     box-sizing: border-box;
     align-items: center;
     height: 100vh;
-    
+
     background-color: hwb(212deg 84% 6%);
     margin: 0;
     padding: 0;
 
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%) ;  }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
 
 .contenedor {
     display: flex;
