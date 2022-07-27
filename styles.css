@@ -3,7 +3,6 @@ body {
     box-sizing: border-box;
     align-items: center;
     height: 100vh;
-    
     background-color: hwb(212deg 84% 6%);
     margin: 0;
     padding: 0;
@@ -16,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 340px;
+    width: 320px;
     padding: 10px;
     align-items: center;
 }
@@ -30,18 +29,22 @@ body {
 
 .contenedor .bordercar {
     border-radius: 16px;
-    height: 485px;
+    height: auto;
 
 }
 
-.attribution a {
-    list-style: none;
-    line-height: 2px;
-    text-decoration: none;
-}
+
 
 .bordercar .attribution h4 {
-    font-weight: 600;
-    color: aquamarine;
+    text-align: center;
+    padding: 0;
+    margin: 25px;
+    color: hsl(218, 44%, 22%);
 
+}
+.bordercar .attribution p{
+    text-align: center;
+    margin: 20px;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
 }
